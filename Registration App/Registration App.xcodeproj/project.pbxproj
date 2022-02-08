@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		F8F1FC6227ADFDAC005D7CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC6127ADFDAC005D7CB5 /* AppDelegate.swift */; };
 		F8F1FC6427ADFDAC005D7CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC6327ADFDAC005D7CB5 /* SceneDelegate.swift */; };
-		F8F1FC6627ADFDAC005D7CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC6527ADFDAC005D7CB5 /* ViewController.swift */; };
-		F8F1FC6927ADFDAC005D7CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F1FC6727ADFDAC005D7CB5 /* Main.storyboard */; };
+		F8F1FC6627ADFDAC005D7CB5 /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC6527ADFDAC005D7CB5 /* SingInVC.swift */; };
+		F8F1FC6927ADFDAC005D7CB5 /* SingIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F1FC6727ADFDAC005D7CB5 /* SingIn.storyboard */; };
 		F8F1FC6B27ADFDAE005D7CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1FC6A27ADFDAE005D7CB5 /* Assets.xcassets */; };
 		F8F1FC6E27ADFDAE005D7CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F1FC6C27ADFDAE005D7CB5 /* LaunchScreen.storyboard */; };
+		F8F1FC7F27AE03AB005D7CB5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F1FC7E27AE03AB005D7CB5 /* Home.storyboard */; };
+		F8F1FC8127AE03F3005D7CB5 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC8027AE03F3005D7CB5 /* CreateAccountVC.swift */; };
+		F8F1FC8327AE0442005D7CB5 /* CodeVerifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC8227AE0442005D7CB5 /* CodeVerifVC.swift */; };
+		F8F1FC8527AE045E005D7CB5 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC8427AE045E005D7CB5 /* WelcomeVC.swift */; };
+		F8F1FC8827AE06C6005D7CB5 /* VerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC8727AE06C6005D7CB5 /* VerificationService.swift */; };
+		F8F1FC8B27AE0763005D7CB5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1FC8A27AE0763005D7CB5 /* HomeVC.swift */; };
+		F8F1FC9527AE22D9005D7CB5 /* handsKeyboard.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F8F1FC9427AE22D9005D7CB5 /* handsKeyboard.mp4 */; };
+		F8F1FC9D27B29B6B005D7CB5 /* SingUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F1FC9C27B29B6B005D7CB5 /* SingUpStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8F1FC5E27ADFDAC005D7CB5 /* Registration App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Registration App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F1FC6127ADFDAC005D7CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8F1FC6327ADFDAC005D7CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8F1FC6527ADFDAC005D7CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8F1FC6827ADFDAC005D7CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8F1FC6527ADFDAC005D7CB5 /* SingInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInVC.swift; sourceTree = "<group>"; };
+		F8F1FC6827ADFDAC005D7CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SingIn.storyboard; sourceTree = "<group>"; };
 		F8F1FC6A27ADFDAE005D7CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8F1FC6D27ADFDAE005D7CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8F1FC6F27ADFDAE005D7CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F1FC7E27AE03AB005D7CB5 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		F8F1FC8027AE03F3005D7CB5 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		F8F1FC8227AE0442005D7CB5 /* CodeVerifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerifVC.swift; sourceTree = "<group>"; };
+		F8F1FC8427AE045E005D7CB5 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		F8F1FC8727AE06C6005D7CB5 /* VerificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationService.swift; sourceTree = "<group>"; };
+		F8F1FC8A27AE0763005D7CB5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F8F1FC9427AE22D9005D7CB5 /* handsKeyboard.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = handsKeyboard.mp4; sourceTree = "<group>"; };
+		F8F1FC9C27B29B6B005D7CB5 /* SingUpStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingUpStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,79 @@
 		F8F1FC6027ADFDAC005D7CB5 /* Registration App */ = {
 			isa = PBXGroup;
 			children = (
-				F8F1FC6127ADFDAC005D7CB5 /* AppDelegate.swift */,
-				F8F1FC6327ADFDAC005D7CB5 /* SceneDelegate.swift */,
-				F8F1FC6527ADFDAC005D7CB5 /* ViewController.swift */,
-				F8F1FC6727ADFDAC005D7CB5 /* Main.storyboard */,
-				F8F1FC6A27ADFDAE005D7CB5 /* Assets.xcassets */,
-				F8F1FC6C27ADFDAE005D7CB5 /* LaunchScreen.storyboard */,
+				F8F1FC8927AE06CD005D7CB5 /* Services */,
+				F8F1FC7C27AE035D005D7CB5 /* Controllers */,
+				F8F1FC7627ADFE0F005D7CB5 /* Views */,
+				F8F1FC7527ADFE00005D7CB5 /* App */,
+				F8F1FC7727AE02C5005D7CB5 /* Sources */,
 				F8F1FC6F27ADFDAE005D7CB5 /* Info.plist */,
+				F8F1FC9427AE22D9005D7CB5 /* handsKeyboard.mp4 */,
 			);
 			path = "Registration App";
+			sourceTree = "<group>";
+		};
+		F8F1FC7527ADFE00005D7CB5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1FC6127ADFDAC005D7CB5 /* AppDelegate.swift */,
+				F8F1FC6327ADFDAC005D7CB5 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F8F1FC7627ADFE0F005D7CB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1FC6727ADFDAC005D7CB5 /* SingIn.storyboard */,
+				F8F1FC9C27B29B6B005D7CB5 /* SingUpStoryboard.storyboard */,
+				F8F1FC7E27AE03AB005D7CB5 /* Home.storyboard */,
+				F8F1FC6C27ADFDAE005D7CB5 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8F1FC7727AE02C5005D7CB5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1FC6A27ADFDAE005D7CB5 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F8F1FC7C27AE035D005D7CB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1FC8A27AE0763005D7CB5 /* HomeVC.swift */,
+				F8F1FC7D27AE0369005D7CB5 /* SingInControllers */,
+				F8F1FC8627AE0468005D7CB5 /* SingUpControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F8F1FC7D27AE0369005D7CB5 /* SingInControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1FC6527ADFDAC005D7CB5 /* SingInVC.swift */,
+			);
+			path = SingInControllers;
+			sourceTree = "<group>";
+		};
+		F8F1FC8627AE0468005D7CB5 /* SingUpControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1FC8027AE03F3005D7CB5 /* CreateAccountVC.swift */,
+				F8F1FC8227AE0442005D7CB5 /* CodeVerifVC.swift */,
+				F8F1FC8427AE045E005D7CB5 /* WelcomeVC.swift */,
+			);
+			path = SingUpControllers;
+			sourceTree = "<group>";
+		};
+		F8F1FC8927AE06CD005D7CB5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F8F1FC8727AE06C6005D7CB5 /* VerificationService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F1FC6E27ADFDAE005D7CB5 /* LaunchScreen.storyboard in Resources */,
+				F8F1FC9D27B29B6B005D7CB5 /* SingUpStoryboard.storyboard in Resources */,
+				F8F1FC7F27AE03AB005D7CB5 /* Home.storyboard in Resources */,
 				F8F1FC6B27ADFDAE005D7CB5 /* Assets.xcassets in Resources */,
-				F8F1FC6927ADFDAC005D7CB5 /* Main.storyboard in Resources */,
+				F8F1FC9527AE22D9005D7CB5 /* handsKeyboard.mp4 in Resources */,
+				F8F1FC6927ADFDAC005D7CB5 /* SingIn.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8F1FC6627ADFDAC005D7CB5 /* ViewController.swift in Sources */,
+				F8F1FC8827AE06C6005D7CB5 /* VerificationService.swift in Sources */,
+				F8F1FC8B27AE0763005D7CB5 /* HomeVC.swift in Sources */,
+				F8F1FC6627ADFDAC005D7CB5 /* SingInVC.swift in Sources */,
 				F8F1FC6227ADFDAC005D7CB5 /* AppDelegate.swift in Sources */,
+				F8F1FC8127AE03F3005D7CB5 /* CreateAccountVC.swift in Sources */,
+				F8F1FC8527AE045E005D7CB5 /* WelcomeVC.swift in Sources */,
+				F8F1FC8327AE0442005D7CB5 /* CodeVerifVC.swift in Sources */,
 				F8F1FC6427ADFDAC005D7CB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,12 +235,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F8F1FC6727ADFDAC005D7CB5 /* Main.storyboard */ = {
+		F8F1FC6727ADFDAC005D7CB5 /* SingIn.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F8F1FC6827ADFDAC005D7CB5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = SingIn.storyboard;
 			sourceTree = "<group>";
 		};
 		F8F1FC6C27ADFDAE005D7CB5 /* LaunchScreen.storyboard */ = {
@@ -294,7 +382,7 @@
 				INFOPLIST_FILE = "Registration App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SingIn;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +410,7 @@
 				INFOPLIST_FILE = "Registration App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SingIn;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
